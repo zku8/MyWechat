@@ -18,5 +18,9 @@
     "cordova-android"
   ],
   "author": "zku8",
-  "license": "MIT"
+  "license": "MIT",
+   "bugs": {
+    "url": "https://github.com/zku8/MyWechat/issues"
+  },
+  "homepage": "https://github.com/zku8/MyWechat#readme
 }
