@@ -8,10 +8,15 @@
       "android"
     ]
   },
+  
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zku8/MyWechat.git"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android"
   ],
   "author": "zku8",
-  "license": "ISC"
+  "license": "MIT"
 }
