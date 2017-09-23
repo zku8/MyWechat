@@ -1,0 +1,17 @@
+{
+  "name": "MyWechat",
+  "version": "1.0.0",
+  "description": "",
+  "cordova": {
+    "id": "com.zku8.com",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "zku8",
+  "license": "ISC"
+}

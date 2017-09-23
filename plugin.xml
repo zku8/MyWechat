@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="com.zku8.com" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android"><name>MyWechat</name><js-module name="MyWechat" src="www/MyWechat.js"><clobbers target="cordova.plugins.MyWechat" /></js-module>
+<platform name="android">
+<config-file parent="/*" target="res/xml/config.xml">
+<feature name="MyWechat">
+<param name="android-package" value="com.zku8.com.MyWechat" />
+</feature>
+</config-file>
+<config-file parent="/*" target="AndroidManifest.xml"></config-file>
+<source-file src="src/android/MyWechat.java" target-dir="src/com/zku8/com/MyWechat" />       
+        <source-file src="src/android/EntryActivity.java" target-dir="src/com/zku8/app/wxapi" />
+        <source-file src="src/android/WXEntryActivity.java" target-dir="src/com/zku8/app/wxapi" />
+        <source-file src="src/android/WXPayEntryActivity.java" target-dir="src/com/zku8/app/wxapi" />
+        
+        <framework src="android-build.gradle" custom="true" type="gradleReference" />
+        </platform>
+        </plugin>
